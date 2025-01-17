@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Superheroes&Villanos</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="header__h1">
+        Heroes<span class="header__h1--red"> & </span>Villanos
+      </h1>
+    </header>
+    <div class="container">
+      <main class="main">
+        <h1 class="main__h1">
+          Busca a tu <span class="main__h1--red">heroe</span> o
+          <span class="main__h1--red">villano</span> favorito
+        </h1>
+        <div class="main__div">
+          <input
+            type="text"
+            class="div__input"
+            id="div__input"
+            placeholder="Nombre Heroe/Villano"
+          />
+          <button class="div__button" id="div__button">Buscar</button>
+        </div>
+        <section class="main__section" id="main__section">
+          <div class="section__img" id="section__img">
+            <img src="" id="img__section" class="img__section" alt="" />
+          </div>
+          <div class="section__text" id="section__text">
+            <h2 class="hero" id="hero"></h2>
+            <h3 class="name_hero" id="name_hero"></h3>
+            <div>
+              <h3 class="first_appearance" id="first_appearance"></h3>
+              <p class="year_publication" id="year_publication"></p>
+              <p class="publisher" id="publisher"></p>
+            </div>
+            <div class="btn_data" id="btn_data"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+  <script type="module" src="js/script.js"></script>
+</html>

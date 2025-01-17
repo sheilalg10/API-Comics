@@ -1,0 +1,203 @@
+/* FUNTES */
+
+@font-face {
+  font-family: heroes;
+  src: url(../assets/fuentes/Heroes\ Legend.ttf);
+}
+
+@font-face {
+  font-family: heroes_Hollow;
+  src: url(../assets/fuentes/Heroes\ Legend\ Hollow.ttf);
+}
+
+/* ESTILOS BODY */
+
+.body {
+  background-image: url(../assets/images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+}
+
+/* ESTILOS HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: white;
+  border-bottom: solid #641C34 5px;
+}
+
+.header__h1 {
+  font-family: heroes;
+  font-size: 1.7rem;
+  font-variant: small-caps;
+}
+
+.header__h1--red {
+  color: #641C34;
+}
+
+/* ESTILOS CONTAINER */
+
+.container {
+  width: 1300px;
+  margin: 20px auto;
+  border: solid black 5px;
+  border-radius: 15px 15px;
+  background-color: rgba(128, 128, 128, 0.985);
+}
+
+/* ESTILOS MAIN */
+
+.main__section {
+  width: 1100px;
+  border: solid #641C34 5px;
+  border-radius: 15px 15px;
+  margin: 20px auto;
+}
+
+.main__div{
+  display: flex;
+}
+
+/* ESTILOS SECTION IMAGEN */
+
+.section__img {
+  /* border: black solid; */
+  width: 50%;
+}
+
+.img__section {
+  border-radius: 15px 15px;
+  margin: 20px;
+  margin-left: 30px;
+  margin-top: 250px;
+  box-shadow: 10px 10px 5px black;
+  width: 80%;
+}
+
+/* ESTILOS SECTION TEXT */
+.section__text {
+  /* border: blue solid; */
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+/* ESTILOS GENERALES */
+.hero {
+  font-family: heroes;
+  font-variant: small-caps;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.name_hero {
+  text-align: center;
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+
+.title__section {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #882647;
+  border: solid black;
+  border-radius: 5px 5px;
+  color: black;
+}
+
+.p__registro{
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #641C34;
+}
+
+.span__registro{
+  font-variant: none;
+  font-weight: lighter;
+  color: black;
+}
+
+
+/* ESTILOS DE CADA DIV */
+
+.div__apariencia {
+  border: black solid;
+  display: flex;
+  text-align: center;
+  border-radius: 5px 5px;
+}
+
+.div__text {
+  width: 50%;
+  /* border: blue solid; */
+}
+.div__text1 {
+  width: 50%;
+  /* border: white solid; */
+}
+
+.div__biografia {
+  border: solid black;
+  border-radius: 5px 5px;
+  text-align: center;
+}
+
+.div__estadisticas {
+  border: black solid;
+  display: flex;
+  text-align: center;
+  border-radius: 5px 5px;
+}
+
+.div__text2 {
+  width: 50%;
+  /* border: blue solid; */
+}
+.div__text3 {
+  width: 50%;
+  /* border: white solid; */
+}
+
+.div__trabajo {
+  border: solid black;
+  border-radius: 5px 5px;
+  text-align: center;
+}
+
+
+/* ESTILOS BOTON */
+.btn_data {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  /* border: solid white; */
+}
+
+#btn {
+  padding: 10px;
+  background-color: black;
+  border: solid black;
+  border-radius: 10px 10px;
+  text-decoration: none;
+  color: white;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: #641C34;
+  border: #641C34 solid;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
