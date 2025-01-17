@@ -15,4 +15,29 @@ El proyecto incluye:
 
 ## 3. Requisitos previos
 Para poder ejecutar el proyecto necesitaremos:
-  * 
+  * Node.js instalado
+
+## 4. Instrucciones de instalación.
+Una vez que el repositorio este clonado o descargado y descomprimido se hara lo siguiente:
+
+### Carpeta de _apiComics_
+Instalaremos los modulos de node e inicializaremos el servidor que contiene la API interna.
+
+```node
+// Instalar modulos
+npm install node
+
+// Inicializar el servidor
+npm run dev
+```
+
+## 5. Tecnologías utilizadas:
+Estas son las herramientas o lenguajes usados:
+ * Node.js
+ * HTML
+ * CSS
+ * JavaScript
+
+> [!NOTE]
+> En el fichero **Personajes** esta el listado de todos los superheros y villanos que se pueden buscar en el proyecto.
+
