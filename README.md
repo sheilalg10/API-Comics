@@ -1,42 +1,43 @@
-# Proyecto: Práctica de APIs
+# Proyecto HTML & SCSS
 
-Este repositorio contiene una práctica que implementa el consumo y creación de APIs una externa y una interna utilizando Node.js, JavaScript, HTML y CSS.
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5) ![CSS](https://img.shields.io/badge/CSS-CSS3-blueviolet?style=for-the-badge&logo=css) ![JS](https://img.shields.io/badge/JS-blueviolet?style=for-the-badge&logo=js)
 
----
+## 📌 Descripción
+Este proyecto utiliza **HTML**, **CSS** y **JavaScript** para crear una interfaz web moderna y estilizada.
 
-## 1. Introducción
-Este proyecto utiliza dos APIs para buscar el nombre de un superheroe o un villano y mostrar el comic de su primera aparición y detalles sobre el comic y también muestra
-información sobre el personaje buscado.
+## 🚀 Instalación y Configuración
 
-## 2. Características principales
-El proyecto incluye:
-  * Consumo de una API interna creada por mi.
-  * Consumo de una API externa (**https://superheroapi.com/**)
-
-## 3. Requisitos previos
-Para poder ejecutar el proyecto necesitaremos:
-  * Node.js instalado
-
-## 4. Instrucciones de instalación.
-Una vez que el repositorio este clonado o descargado y descomprimido se hara lo siguiente:
-
-### Carpeta de _apiComics_
-Instalaremos los modulos de node e inicializaremos el servidor que contiene la API interna.
-
-```node
-npm install node
-
-// Inicializar el servidor
-npm run dev
+### 1️⃣ Clonar el repositorio
+```sh
+git clone https://github.com/sheilalg10/OxygenShop.git
+cd OxygenShop
 ```
 
-## 5. Tecnologías utilizadas:
-Estas son las herramientas o lenguajes usados:
- * Node.js
- * HTML
- * CSS
- * JavaScript
+### 2️⃣ Instalar dependencias (Sass)
+```sh
+npm install -g sass
+```
 
-> [!NOTE]
-> En el fichero **Personajes** esta el listado de todos los superheros y villanos que se pueden buscar en el proyecto.
+### 3️⃣ Compilar SCSS a CSS
+Si usas Sass CLI, puedes compilar los archivos SCSS con:
+```sh
+sass --watch ./sass/style.scss:./css/style.css
+```
+
+## 📂 Estructura del Proyecto
+```sh
+📁 OxygenShop
+ ├── 📁 css            # Archivos CSS compilados
+ ├── 📁 scss           # Archivos fuente SCSS
+ ├── 📁 assets         # Imágenes, fuentes...
+ ├── index.html        # Página principal
+ ├── README.md         # Documentación
+```
+
+## 🎨 Tecnologías Utilizadas
+- **HTML5** para la estructura del sitio web.
+- **SCSS** para estilos avanzados y modularización.
+
+---
+✍️ **Autor:** [Sheila Lara García](https://github.com/sheilalg10)
 
