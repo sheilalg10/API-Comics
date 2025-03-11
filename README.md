@@ -24,7 +24,6 @@ Una vez que el repositorio este clonado o descargado y descomprimido se hara lo 
 Instalaremos los modulos de node e inicializaremos el servidor que contiene la API interna.
 
 ```node
-// Instalar modulos
 npm install node
 
 // Inicializar el servidor
