@@ -1,6 +1,6 @@
 # Proyecto HTML & SCSS
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5) ![CSS](https://img.shields.io/badge/CSS-CSS3-blueviolet?style=for-the-badge&logo=css) ![JS](https://img.shields.io/badge/JS-blueviolet?style=for-the-badge&logo=js)
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5) ![CSS](https://img.shields.io/badge/CSS-CSS3-blueviolet?style=for-the-badge&logo=css) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## 📌 Descripción
 Este proyecto utiliza **HTML**, **CSS** y **JavaScript** para crear una interfaz web moderna y estilizada.
