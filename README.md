@@ -1,4 +1,4 @@
-# Proyecto HTML & SCSS
+# Proyecto HTML, CSS & JS
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5) ![CSS](https://img.shields.io/badge/CSS-CSS3-blueviolet?style=for-the-badge&logo=css) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
@@ -9,26 +9,25 @@ Este proyecto utiliza **HTML**, **CSS** y **JavaScript** para crear una interfaz
 
 ### 1️⃣ Clonar el repositorio
 ```sh
-git clone https://github.com/sheilalg10/OxygenShop.git
-cd OxygenShop
+git clone https://github.com/sheilalg10/API-Comics.git
+cd API-Comics
 ```
 
-### 2️⃣ Instalar dependencias (Sass)
+### 2️⃣ Instalar dependencias (node.js)
 ```sh
-npm install -g sass
+
 ```
 
 ### 3️⃣ Compilar SCSS a CSS
-Si usas Sass CLI, puedes compilar los archivos SCSS con:
 ```sh
-sass --watch ./sass/style.scss:./css/style.css
+
 ```
 
 ## 📂 Estructura del Proyecto
 ```sh
 📁 OxygenShop
- ├── 📁 css            # Archivos CSS compilados
- ├── 📁 scss           # Archivos fuente SCSS
+ ├── 📁 css            # Archivos CSS
+ ├── 📁 js             # Archivos JS
  ├── 📁 assets         # Imágenes, fuentes...
  ├── index.html        # Página principal
  ├── README.md         # Documentación
@@ -36,7 +35,8 @@ sass --watch ./sass/style.scss:./css/style.css
 
 ## 🎨 Tecnologías Utilizadas
 - **HTML5** para la estructura del sitio web.
-- **SCSS** para estilos avanzados y modularización.
+- **CSS** para estilos.
+- **JS**
 
 ---
 ✍️ **Autor:** [Sheila Lara García](https://github.com/sheilalg10)
