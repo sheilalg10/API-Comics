@@ -14,25 +14,25 @@ cd API-Comics
 ```
 
 ### 2️⃣ Instalar dependencias (node.js)
-El primer comando crea el archivo **package.json** 
 ```sh
-npm install -y
+cd apiComics/src
+
+npm install express
 ```
 
 ## 📂 Estructura del Proyecto
 ```sh
 📁 API-Comics
- ├── 📁 css            # Archivos CSS
- ├── 📁 js             # Archivos JS
- ├── 📁 assets         # Imágenes, fuentes...
- ├── index.html        # Página principal
- ├── README.md         # Documentación
+ ├── 📁 apiComics         # Archivos Back-End
+ ├── 📁 apiComicsFront    # Archivos Front-End
+ ├── Personajes.md        # Archivo con todos los personajes que aparecen en la web
+ ├── README.md            # Documentación
 ```
 
 ## 🎨 Tecnologías Utilizadas
 - **HTML5** para la estructura del sitio web.
 - **CSS** para estilos.
-- **JS**
+- **JS** para funcionalidades del sitio web.
 
 ---
 ✍️ **Autor:** [Sheila Lara García](https://github.com/sheilalg10)
