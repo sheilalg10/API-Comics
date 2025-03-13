@@ -15,12 +15,9 @@ cd API-Comics
 
 ### 2️⃣ Instalar dependencias (node.js)
 ```sh
+npm install express
 
-```
-
-### 3️⃣ Compilar SCSS a CSS
-```sh
-
+npm install -y
 ```
 
 ## 📂 Estructura del Proyecto
