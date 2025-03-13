@@ -14,15 +14,14 @@ cd API-Comics
 ```
 
 ### 2️⃣ Instalar dependencias (node.js)
+El primer comando crea el archivo **package.json** 
 ```sh
-npm install express
-
 npm install -y
 ```
 
 ## 📂 Estructura del Proyecto
 ```sh
-📁 OxygenShop
+📁 API-Comics
  ├── 📁 css            # Archivos CSS
  ├── 📁 js             # Archivos JS
  ├── 📁 assets         # Imágenes, fuentes...
