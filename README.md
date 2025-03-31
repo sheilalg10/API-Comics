@@ -23,10 +23,10 @@ npm install express
 ## 📂 Estructura del Proyecto
 ```sh
 📁 API-Comics
- ├── 📁 apiComics         # Archivos Back-End
- ├── 📁 apiComicsFront    # Archivos Front-End
- ├── Personajes.md        # Archivo con todos los personajes que aparecen en la web
- ├── README.md            # Documentación
+ ├── 📁 apiComics          # Archivos Back-End
+ ├── 📁 apiComicsFront     # Archivos Front-End
+ ├── Personajes.md         # Archivo con todos los personajes que aparecen en la web
+ ├── README.md             # Documentación
 ```
 
 ## 🎨 Tecnologías Utilizadas
